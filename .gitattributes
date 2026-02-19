@@ -1,2 +1,60 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+/* Selector universal */
+* {
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial;
+}
+
+/* Selector de etiqueta */
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+/* Selector por ID */
+#titulo {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+/* Selector por clase */
+.destacado {
+    color: red;
+    border: 2px solid black;
+}
+
+/* Selector descendente */
+.contenedor p {
+    background-color: lightgray;
+}
+
+/* Hijo directo */
+.contenedor > h2 {
+    color: green;
+}
+
+/* Adyacente */
+h1 + p {
+    color: orange;
+}
+
+/* Hermanos generales */
+section p ~ p {
+    background-color: yellow;
+}
+
+/* Combinado */
+div.contenedor ul li {
+    color: purple;
+}
+
+/* Por atributo */
+input[type="text"] {
+    border: 2px solid blue;
+    width: 200px;
+}
+
+input[type="email"] {
+    border: 2px solid red;
+}
